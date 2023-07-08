@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    overflow: hidden;
+}
+
+.blog{
+    float: left;
+    width: 60%;
+    height: 150px;
+    background-color: lightseagreen;
+}
+.contacts{
+    float: right;
+    width:40%;
+    height: 150px;
+    background-color: lawngreen;
+}
+.item{
+    float: left;
+    width: 33.33%;
+    height:200px; 
+}
+.tomato{
+    background-color: tomato;
+}
+.yellow{
+    background-color: yellow;
+}
+.oranged{
+    background-color: orangered;
+}
+
+.footer{
+    height: 100px;
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
